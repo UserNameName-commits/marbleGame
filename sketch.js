@@ -274,7 +274,7 @@ function pullMarble() {
     pulledMarbleColor = pulledMarble; // Store the color string
     pulledMarbleStatusText = "Pulled: " + pulledMarbleColor + " (replaced)";
   } else {
-    pulpledMarble = currentMarblesInBag.splice(randomIndex, 1)[0]; // Get and remove marble
+    pulledMarble = currentMarblesInBag.splice(randomIndex, 1)[0]; // Get and remove marble
     pulledMarbleColor = pulledMarble; // Store the color string
     pulledMarbleStatusText = "Pulled: " + pulledMarbleColor + " (not replaced)";
   }
